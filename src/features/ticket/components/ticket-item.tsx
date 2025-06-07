@@ -13,6 +13,7 @@ type TicketItemProps = {
 };
 
 const TicketItem = ({ ticket, isDetail }: TicketItemProps) => {
+
 	const detailButton = (
 		<Button asChild size="icon" variant="outline">
 			<Link href={ticketPath(ticket.id)} className="text-sm underline">
